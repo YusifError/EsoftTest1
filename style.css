@@ -1,0 +1,97 @@
+.field{
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.osnova{
+    width: 190px;
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+    box-shadow: 0.500em 0.500em 0 0 rgba(15, 28, 63, 0.125);
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.door{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
+
+.doorhand{
+    width: 5px;
+    height: 5px;
+    background-color: grey;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 155px;
+    top: 345px;
+}
+
+.window{
+    background: #ffffff;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 195px;
+    top: 250px;
+}
+
+.head{
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    background-color: null;
+    position: absolute;
+    left: 95px;
+    top: 100px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid brown;
+  }
+  
+  .dim{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(104, 46, 46);
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 115px;
+    top: 140px;
+  }
+
+  .smoke{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(63, 20, 20);
+    position: absolute;
+    left: 100px;
+    bottom: 280px;
+  }
+
+  .smoke2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(64, 20, 20);
+    position: absolute;
+    left: 60px;
+    bottom: 320px;
+  }
+  
+
